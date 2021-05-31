@@ -1,0 +1,10 @@
+<div class="quote">
+  <p><%= @question.capitalize %></p>
+  <p>-<em>You</em></p>
+</div>
+<div class="quote" id="answer">
+  <p><%= @answer %></p>
+  <p>-<em>Your coach</em></p>
+</div>
+
+<%= link_to "Ask again", ask_path %>
